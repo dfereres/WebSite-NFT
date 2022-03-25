@@ -37,6 +37,7 @@ html {
 	background: var(--color3);
 	cursor: pointer;
 	transition: all 0.5s;
+	width: fit-content;
 }
 
 .btn:hover {
@@ -46,6 +47,11 @@ html {
 
 a .btn {
 	color: var(--color2);
+}
+
+#MINT-btn .btn {
+	font-size: large;
+	color: aqua;
 }
 
 .red {
@@ -63,6 +69,12 @@ a .btn {
 }
 
 /* Accueil */
+
+#Sous-titre {
+	font-weight: normal;
+	color: var(--color3);
+}
+
 .hero {
 	height: 100vh;
 	display: flex;
